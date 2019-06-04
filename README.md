@@ -8,14 +8,16 @@ Most of the code is visible from the video.
 
 In this example is illustrated how to create a custom radio-group following the dispositions of the [WAI ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/#radiobutton):
 
-> - `Tab` and `Shift + Tab`: Move focus into and out of the radio group.
->  
-When focus moves into a radio group :
->   - If a radio button is checked, focus is set on the checked button.
-   - If none of the radio buttons are checked, focus is set on the first radio button in the group.
- - `Space`: checks the focused radio button if it is not already checked.   
- - `Right Arrow` and `Down Arrow`: move focus to the next radio button in the group, uncheck the previously focused button, and check the newly focused button. If focus is on the last button, focus moves to the first button.
- - `Left Arrow` and `Up Arrow`: move focus to the previous radio button in the group, uncheck the previously focused button, and check the newly focused button. If focus is on the first button, focus moves to the last button.
+>  - `Tab` and `Shift + Tab`: Move focus into and out of the radio group.   When focus moves into a radio group :
+>    - If a radio button is checked, focus is set on the checked button.
+>    - If none of the radio buttons are checked, focus is set on the first radio button in the group.
+>  - `Space`: checks the focused radio button if it is not already checked.   
+>  - `Right Arrow` and `Down Arrow`: move focus to the next radio button in the group, uncheck the previously focused button, and check the
+> newly focused button. If focus is on the last button, focus moves to
+> the first button.
+>  - `Left Arrow` and `Up Arrow`: move focus to the previous radio button in the group, uncheck the previously focused button, and check
+> the newly focused button. If focus is on the first button, focus moves
+> to the last button.
 
 #### My contributes
 
